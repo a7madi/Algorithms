@@ -17,7 +17,7 @@ function binary_search($list, $item)
             $high_index = $mid_index - 1;
         }
     }
-    return "Item not found";
+    return null;
 }
 
 $list = [10, 24, 30, 45, 75, 86, 97, 800, 901, 1000, 1560];
